@@ -13,22 +13,21 @@
 <body>
     <div class="overflow" >
     <header class="header">
-        <div id="header-container">
-            <img   src="./elifinity.jpg" alt="Elfinity Technologies" class="logo title">
-            <span class="site-title title">Elfinity Technologies</span>
-            <nav >
-                <ul class="title">
-                    <br>
-                    <li ><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">SOLUTIONS</a></li>
-                    <li><a href="#">INDUSTRIES</a></li>
-                    <li><a href="#">TECHNOLOGIES</a></li>
-                    <button class="contact-header">Contact-us</button>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <img src="./elifinity.jpg" alt="Elfinity Technologies" class="logo">
+    <span class="site-title">Elfinity Technologies</span>
+    <span class="menu-icon" onclick="toggleMenu()">☰</span>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">SOLUTIONS</a></li>
+            <li><a href="#">INDUSTRIES</a></li>
+            <li><a href="#">TECHNOLOGIES</a></li>
+            <li><button class="contact-header">Contact Us</button></li>
+        </ul>
+    </nav>
+</header>
+
 
     <section class="hero">
         <div class="content">
@@ -447,6 +446,10 @@
                 }
             }
 
+             function toggleMenu() {
+        const nav = document.getElementById("nav-menu");
+        nav.classList.toggle("show-menu");
+    }
         </script>
 
 </body>

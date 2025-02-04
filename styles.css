@@ -811,6 +811,11 @@ body {
 .overflow {
   overflow: hidden;
 }
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
 
 @media (max-width: 425px) {
   #header-container {
@@ -889,5 +894,43 @@ body {
   }
   .bi-linkedin {
     margin-left: 18px;
+  }
+
+  /*/////////// */
+  .menu-icon {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #444;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+  }
+
+  nav ul {
+    display: block;
+    gap: 0;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  nav ul li a {
+    color: white;
+  }
+
+  .show-menu {
+    display: block;
+  }
+  .contact-header {
+    margin-left: 100px;
   }
 }
