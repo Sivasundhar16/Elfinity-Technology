@@ -124,7 +124,7 @@ body {
   border-radius: 10px;
   font-size: 15px;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .fixed-start-button:hover {
@@ -830,17 +830,16 @@ body {
     max-width: 600px;
   }
 
-  .this_head {
+  /* .this_head {
     margin-left: 70px;
-  }
+  } */
   .pink {
     margin-left: 10px;
     margin-right: 100px;
     display: inline;
   }
-  .darkorchid {
-    margin-left: 30px;
-  }
+  /* .darkorchid {
+  } */
   .right-side-image {
     width: 90px;
     height: 90px;
