@@ -1107,4 +1107,22 @@ body {
     text-align: left;
     padding-left: 150px;
   }
+  .makeflexingthesetwo {
+    display: flex;
+    margin-right: 40px;
+    gap: 10px;
+    margin-left: -30px;
+  }
+  .makeitflexfirst {
+    display: flex;
+    margin-right: 150px;
+    gap: 20px;
+    margin-left: -30px;
+  }
+  .piratflex {
+    display: flex;
+    margin-right: 150px;
+    gap: 20px;
+    margin-left: -60px;
+  }
 }
