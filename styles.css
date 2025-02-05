@@ -562,9 +562,113 @@ img {
 #middle {
   display: flex;
   gap: 20px;
-
   justify-content: center;
 }
+
+.thisisparatest {
+  margin-left: 90px;
+  max-width: 500px; /* Controls the width of the text block */
+  line-height: 1.5; /* Improves readability */
+  word-wrap: break-word; /* Ensures long words don't overflow */
+  font-weight: bold;
+}
+.middle {
+  background-color: #eec2ea;
+  width: 100%;
+  height: auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.middle h4 {
+  font-size: 22px;
+  color: palevioletred;
+  margin-bottom: 5px;
+}
+
+.middle h1 {
+  font-size: 32px;
+  color: hwb(211 2% 78%);
+  margin-bottom: 15px;
+}
+
+.easypro {
+  margin-left: 550px;
+}
+
+.thisispara {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-left: 500px;
+}
+
+.secondpara {
+  margin-left: 15px;
+}
+
+.flexing {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.flexing > div {
+  text-align: center;
+}
+
+.thunder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.thisismidnum {
+  font-weight: bold;
+  font-size: 18px;
+}
+.secondimageofdiv {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.thridimagediv {
+  margin-bottom: 10px;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .middle {
+    padding: 40px 15px;
+  }
+
+  .middle h4 {
+    font-size: 18px;
+  }
+
+  .middle h1 {
+    font-size: 24px;
+  }
+
+  .thisispara {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .flexing {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .thunder {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+/* over mobile responsive */
 
 .service-content {
   background: rgba(0, 0, 0, 0.6);
@@ -621,7 +725,7 @@ img {
 
 #supaar {
   display: inline-block;
-  justify-content: center;
+  margin-left: 600px;
   color: #16205f;
 }
 
@@ -781,7 +885,12 @@ body {
 .pink {
   color: rgb(238, 22, 191);
 }
-
+.realityone {
+  margin-left: 70px;
+}
+.soluctionata {
+  margin-left: 70px;
+}
 .darkorchid {
   color: rgb(232, 122, 213);
 }
@@ -817,6 +926,10 @@ body {
   display: none; /* Hidden by default */
 }
 
+.justtestlinkedin {
+  margin-left: 35px;
+}
+
 @media (max-width: 425px) {
   #header-container {
     display: none;
@@ -845,7 +958,7 @@ body {
     height: 90px;
     margin: auto;
 
-    margin-right: 250px;
+    margin-right: 300px;
   }
   .moving {
     margin: auto;
@@ -855,12 +968,12 @@ body {
   /* .slider-container {
     margin-left: 50px;
   } */
-  .middle img {
+  /* .middle img {
     width: 100%;
     height: 100%;
     margin: auto;
-    /* padding-left: 40px; */
-  }
+    padding-left: 40px;
+  } */
   #left-trust-container {
     margin: auto;
   }
@@ -931,5 +1044,67 @@ body {
   }
   .contact-header {
     margin-left: 100px;
+  }
+  #left-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #left-content h1 {
+    font-size: 20px;
+  }
+  .this_head {
+    margin-left: 90px;
+  }
+  .soluctionata {
+    margin-left: 0px;
+  }
+  .fixed-start-button {
+    margin-top: 100px;
+  }
+  .thisisparatest {
+    margin-left: 80px;
+    max-width: 300px; /* Smaller width for mobile screens */
+    padding: 0 15px; /* Add some padding on mobile */
+  }
+  .moving {
+    margin-top: 90px;
+  }
+  .trust h2 {
+    white-space: normal;
+  }
+  .trust {
+    margin-left: -80px;
+    margin-right: 40px;
+  }
+  .easyprocesswe {
+    /* Remove the extreme negative margin */
+    margin-left: 50px;
+    padding: 0 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .easypro {
+    /* Reset the existing margin */
+    margin-left: 50px;
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .thisispara {
+    /* Reset the existing margin */
+    margin-left: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+  .secondpara {
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  .process {
+    text-align: left;
+    padding-left: 150px;
   }
 }
