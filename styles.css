@@ -597,14 +597,14 @@ img {
 }
 
 .easypro {
-  margin-left: 550px;
+  margin-left: 623px;
 }
 
 .thisispara {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 30px;
-  margin-left: 500px;
+  margin-left: 570px;
 }
 
 .secondpara {
@@ -724,7 +724,7 @@ img {
 }
 
 #fun {
-  margin-left: 0px;
+  margin-left: 90px;
 }
 
 #supaar {
@@ -1018,9 +1018,9 @@ body {
   #supaar {
     margin-left: 140px;
   }
-  .bi-linkedin {
-    margin-left: 18px;
-  }
+  /* .bi-linkedin {
+    margin-left: 80px;
+  } */
 
   /*/////////// */
   .menu-icon {
@@ -1062,6 +1062,7 @@ body {
   #left-content {
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
   }
   #left-content h1 {
     font-size: 20px;
@@ -1080,14 +1081,15 @@ body {
   }
 
   .fixed-start-button {
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: -30px;
   }
   .thisisparatest {
-    margin-left: 25px;
-    max-width: 400px; /* Smaller width for mobile screens */
+    font-size: 13px;
+    margin-left: 8px;
+    max-width: 300px; /* Smaller width for mobile screens */
     padding: 0 15px; /* Add some padding on mobile */
-    white-space: wrap;
+    white-space: nowrap;
   }
   .moving {
     margin-top: 90px;
@@ -1133,7 +1135,7 @@ body {
 
   .secondpara {
     display: inline-block;
-    margin-left: 0;
+    margin-left: 10px;
   }
 
   .process {
@@ -1143,23 +1145,29 @@ body {
   .makeflexingthesetwo {
     display: flex;
     margin-right: 40px;
-    gap: 10px;
-    margin-left: -30px;
+    gap: 150px;
+    margin-left: -100px;
   }
   .makeitflexfirst {
     display: flex;
     margin-right: 150px;
-    gap: 20px;
-    margin-left: -30px;
+    gap: 150px;
+    margin-left: -100px;
   }
   .piratflex {
     display: flex;
     margin-right: 150px;
-    gap: 20px;
-    margin-left: -60px;
+    gap: 90px;
+    margin-left: -100px;
   }
   .superimg {
     height: 200px;
     width: auto;
+  }
+  #supaar h3 {
+    margin-left: -7px;
+  }
+  .linkedinmove {
+    margin-left: -90px;
   }
 }
