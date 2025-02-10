@@ -569,12 +569,17 @@ img {
   justify-content: center;
 }
 
+/* making change */
+
 .thisisparatest {
   margin-left: 70px;
   max-width: 500px; /* Controls the width of the text block */
   line-height: 1.5; /* Improves readability */
   word-wrap: break-word; /* Ensures long words don't overflow */
   font-weight: bold;
+}
+.makeamove {
+  display: inline-block; /* Ensures the span behaves like a block element */
 }
 .middle {
   background-color: #eec2ea;
@@ -1088,11 +1093,17 @@ body {
     margin-left: -30px;
   }
   .thisisparatest {
-    font-size: 13px;
-    margin-left: 8px;
-    max-width: 300px; /* Smaller width for mobile screens */
-    padding: 0 15px; /* Add some padding on mobile */
-    white-space: nowrap;
+    margin-left: 20px; /* Adjust margin for smaller screens */
+    max-width: 100%; /* Allow the text to take full width on mobile */
+    white-space: normal; /* Allow text to wrap */
+    text-align: left; /* Align text to the left */
+    padding: 0 15px; /* Add some padding for better readability */
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+  .makeamove {
+    white-space: normal; /* Allow text to wrap */
   }
   .moving {
     margin-top: 90px;
@@ -1173,4 +1184,13 @@ body {
   .linkedinmove {
     margin-left: -90px;
   }
+  /* .makeamove {
+    margin-left: -20px;
+    margin-right: -90px;
+    white-space: nowrap;
+  } */
+  /* #left-content p {
+    margin-left: -1px;
+    margin-right: 10px;
+  } */
 }
