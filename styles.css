@@ -944,6 +944,10 @@ body {
   margin-left: 35px;
 }
 
+.pink {
+  margin-left: 10px;
+}
+
 @media (max-width: 425px) {
   #header-container {
     display: none;
@@ -1076,6 +1080,7 @@ body {
     margin-left: 40px; /* Example value */
     white-space: nowrap;
   }
+
   .this_head p {
     margin-right: 70px;
   }
