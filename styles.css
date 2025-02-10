@@ -1071,6 +1071,9 @@ body {
     margin-left: 40px; /* Example value */
     white-space: nowrap;
   }
+  .this_head p {
+    margin-right: 70px;
+  }
   .soluctionata {
     margin-left: 0px;
   }
